@@ -1,0 +1,12 @@
+this method is the simple version of highights removal. The idea is to detect all the highlight region, and compute the average of its neighbours colors to inpaint the highlights pixels.
+
+function callled main.m
+this function is only to remove highlights for one image
+
+function called highlight_detection_set is used to detect the highlights region of image and return the position
+ 
+function called removal_highlights_for_all_sequences
+this function is to remove highlights for images
+ 
+function callled imageprocess_all_sequences
+thhis function is to peform image sharpening and histogram equalisation by matlab library
